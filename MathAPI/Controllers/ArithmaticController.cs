@@ -13,5 +13,29 @@ namespace MathAPI.Controllers
             int result = a + b;
             return Ok(result);
         }
+        
+        [HttpGet]
+        [Route("subtract")]
+        public IActionResult Subtract(int a, int b)
+        {
+            int result = a - b;
+            return Ok(result);
+        }
+        
+        [HttpGet]
+        [Route("multiply")]
+        public IActionResult Multiply(int a, int b)
+        {
+            int result = a / b;
+            return Ok(result);
+        }
+
+        [HttpGet]
+        [Route("divide")]
+        public IActionResult Divide(int a, int b)
+        {
+            int result = a / b;
+            return Ok(result);
+        }
     }
 }
