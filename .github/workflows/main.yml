@@ -21,7 +21,7 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
-          AZURE_OPENAI_API_VERSION: "turbo-2024-04-09"
+          AZURE_OPENAI_API_VERSION: "2024-10-21"
           AZURE_OPENAI_DEPLOYMENT: "gpt-4"
           AZURE_OPENAI_ENDPOINT: "https://pullrequest-review.openai.azure.com/"
           exclude: "**/*.md, **/*.yaml" # Optional: exclude patterns separated by commas
